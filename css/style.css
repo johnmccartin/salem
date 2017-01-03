@@ -89,5 +89,5 @@ section:last-of-type {
 
 .browserupgrade a {
   color: white;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
