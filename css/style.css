@@ -80,3 +80,14 @@
 section:last-of-type {
   padding-bottom: 50px;
 }
+
+.browserupgrade {
+  background: red;
+  padding: 1em;
+  color: white;
+}
+
+.browserupgrade a {
+  color: white;
+  text-decoration: underline;
+}
