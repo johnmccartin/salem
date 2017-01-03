@@ -72,3 +72,11 @@
 #global-header .block {
   padding-left: 0px;
 }
+
+#post-data {
+  padding: 60px 0;
+}
+
+section:last-of-type {
+  padding-bottom: 50px;
+}
