@@ -1,0 +1,35 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>News</h1>
+          <p>The latest on Imagine Salem</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="news-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        {% for post in site.posts %}
+        <div class="post-area">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-title bold">{{ post.title }}</a>
+          <p class="post-date">{{ post.date | date_to_long_string }}</p>
+          <p>
+            {{ post.content }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
