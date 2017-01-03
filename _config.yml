@@ -20,8 +20,8 @@ subtitle: "A public visioning process for Salem, MA"
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://www.mccartin.info/salem" # the base hostname & protocol for your site
+baseurl: "/salem"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
