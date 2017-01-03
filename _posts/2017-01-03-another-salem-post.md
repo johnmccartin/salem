@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introducing Imagine Salem
+title: Another Salem post
 subtitle: Creating a shared vision for the future of Salem
-date: 2016-01-02
+date: 2016-01-03
 author: John McCartin
 ---
 
