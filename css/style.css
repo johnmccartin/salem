@@ -91,3 +91,30 @@ section:last-of-type {
   color: white;
   text-decoration: underline !important;
 }
+
+img.logo {
+  width: 120px;
+  margin-top: -20px;
+}
+
+header .navbar-default .navbar-nav {
+  padding-top: 0;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  header .navbar-default .navbar-toggle {
+    margin: 10px 0 0 0px !important;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .container {
+    width: 100% !important
+  }
+}
