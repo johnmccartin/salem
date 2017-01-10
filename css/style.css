@@ -93,7 +93,7 @@ section:last-of-type {
 }
 
 img.logo {
-  width: 120px;
+  width: 80px;
   margin-top: -20px;
 }
 
@@ -101,6 +101,33 @@ header .navbar-default .navbar-nav {
   padding-top: 0;
 }
 
+.btn-nicefont {
+    font-family: "Pacifico";
+    font-size: 3em;
+    padding-bottom: .4em;
+}
+
+.centered {
+  margin: .5em auto;
+  display: block;
+}
+
+.events {
+  margin-top: 2em;
+  width: 100%;
+}
+.events td, .events th {
+  padding: 1em;
+}
+
+.events th {
+  font-family: "Pacifico";
+  font-size: 1.5em;
+}
+
+hr.section-break {
+  margin: 4.5em 0 4.5em 0;
+}
 
 
 @media only screen and (max-width: 767px) {
